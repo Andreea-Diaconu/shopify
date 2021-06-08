@@ -1,0 +1,642 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 75px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+header nav{
+  width: 1420px;
+  height: 75px;
+  margin: 0 auto;
+  background:#fbf7ed ;
+  line-height: 30px;
+}
+.logo-img{
+  margin: 8px 15px 0 10px;
+}
+.header-nav{
+  display: flex;
+  align-items:center;
+  flex-wrap: wrap;
+  list-style: none;
+  overflow: hidden;
+  margin:0 55px;
+}
+.header-nav li{
+  float: left;
+}
+.header-nav li a{
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #42474c;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-nav li i.fa-angle-down{
+  display: block;
+  margin-top: -25px;
+  margin-left: 85px;
+}
+.second-nav-header{
+  display:block;
+  list-style: none;
+}
+.second-nav-header{
+  display: flex;
+  align-items:center;
+  flex-wrap: wrap;
+  float: right;
+  cursor: pointer;
+  margin-right: 55px;
+}
+.second-nav-header li a{
+  display: block;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  margin-top: -45px;
+  margin-right: 35px;
+  color: #42474c;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.second-nav-header li .btn-second-nav-header{
+  display: block;
+  float: right;
+  text-align: center;
+  margin-right: 35px;
+  margin-top: -45px;
+  background: #008060;
+  border: none;
+  height: 35px;
+  width: 95px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.second-nav-header li .btn-second-nav-header:focus{
+  background-color: #004c3f ;
+}
+section.info-about-business{
+  width: 1420px;
+  margin: 0 auto;
+  background:#fbf7ed ;
+}
+.start-business{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 500px;
+  
+}
+.details-start-business{
+  width: 275%;
+  font-size: 30px;
+  margin-top:175px;
+  margin-left: 20px;
+  text-align: center;
+}
+.details-start-business h1{
+  text-align: left;
+  margin-left: 45px;
+  color: #004c3f;
+   font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.email-info-about-business{
+  float: left;
+  margin-left: 55px;
+  margin-top: 20px;
+  width: 195px;
+  height: 35px;
+  text-align: center;
+  border-radius: 5px;
+}
+.email-info-about-business:focus{
+  border:#008060;
+}
+.btn-details-start-business{
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 95px;
+  height: 39px;
+  background: #008060;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-details-start-business:focus{
+  background-color: #004c3f;
+}
+.parag-start-business{
+  float: left;
+  font-size: 12px;
+  text-align: left;
+  width: 495px;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+.video-business{
+  margin-left: 155px;
+  margin-top: 95px;
+}
+section.business-online{
+  width: 1420px;
+  margin: 0 auto;
+  background: #004c3f;
+}
+.create-business-online{
+  padding-top: 45px;
+  padding-left: 45px;
+}
+.title-create-business-online{
+  color: #fff;
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parag-create-business-online{
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.create-business-online a{
+  float:right;
+  margin-top: -18px;
+  margin-right: 18px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.img-business-online{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 700px;
+  margin-top: 55px;
+}
+.img-food-alfred{
+  display: inline-block;
+  width: 15%;
+  padding: 10px;
+
+}
+.img-jewelry{
+  display: inline-block;
+  width: 15%;
+  padding: 10px;
+  margin-left: 50px;
+}
+.img-detour{
+  display: inline-block;
+  width: 15%;
+  padding: 10px;
+  margin-left: 50px;
+}
+.img-beauty{
+  display: inline-block;
+  width: 15%;
+  padding: 10px;
+  margin-left: 50px;
+}
+.img-home{
+  display: inline-block;
+  width: 15%;
+  padding: 10px;
+  margin-left: 50px;
+}
+div.img-business-online p{
+  color: #fff;
+}
+.title-steps-create-online-business{
+  margin-left: 45px;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+.steps-follow{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 250px;
+  margin-left: 35px;
+}
+.steps-follow li{
+  margin-top: 15px;
+}
+.start-step{
+  list-style: none;
+  width: 30%;
+  margin-top: 25px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Helvetica, Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.move-step{
+  list-style: none;
+  width: 30%;
+  margin-top: 25px;
+  margin-left: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Helvetica, Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.switch-step{
+  list-style: none;
+  width: 30%;
+  margin-top: 25px;
+  margin-left: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Helvetica, Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.expert-step{
+  list-style: none;
+  width: 30%;
+  margin-top: 25px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Helvetica, Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.platform-container{
+  width: 1220px;
+  margin: 0 auto;
+}
+.about-platform{
+  text-align: center;
+  margin-top: 35px;
+}
+.title-platform{
+  font-size: 40px;
+  color:#212326 ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-platform p{
+  text-align: center;
+  font-size: 20px;
+  color: #6b7177;
+  width: 38%;
+  margin-top: 20px;
+  margin-left: 450px;
+}
+.sell-container{
+  display: inline-flex;
+  margin-top: 35px;
+  height: 300px;
+}
+.text-sell-container{
+  margin-top: 155px;
+  margin-left: 25px;
+  width: 45%;
+}
+.text-sell-container h5{
+  width: 20%;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#212326
+}
+.text-sell-container p{
+  margin-top: 20px;
+  color: #6b7177;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-sell-container a{
+  float: right;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#008060 ;
+}
+.market-container{
+  display:inline-flex;
+  margin-top: 35px;
+  height: 300px;
+}
+.text-market{
+  margin-top: 220px;
+}
+.text-market h5{
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 35%;
+  color:#212326;
+}
+.text-market p{
+  margin-top: 20px;
+  color: #6b7177;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 80%;
+}
+.text-market a{
+  text-decoration: none;
+  color: #008060;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+.manage-container{
+  display: inline-flex;
+  margin-top: 290px;
+  height: 300px;
+}
+.text-manage-container{
+  margin-top: 70px;
+  margin-left: 170px;
+}
+.text-manage-container h5{
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 35%;
+  color: #212326;
+}
+.text-manage-container p{
+  margin-top: 15px;
+  color: #212326;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 75%;
+}
+.text-manage-container a{
+  margin-top: 15px;
+  color: #008060;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.shopify-business-world{
+  margin-top: 45px;
+}
+.shopify-business-world h5{
+  padding-top: 55px;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #212326;
+  width: 45%;
+}
+.shopify-business-world p{
+  margin-top: 20px;
+  color: #212326;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 40%;
+}
+.shopify-business-world a{
+  text-decoration: none;
+  margin-top: 20px;
+  color: #008060;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-brands{
+  width: 1220px;
+  margin: 0 auto;
+  background: #002e25;
+}
+.container-about-brands{
+  display: flex;
+  height: 532px;
+}
+.text-about-brands{
+  display: inline-flex;
+}
+.text-about-brands ul{
+  list-style: none;
+  text-align: center;
+  margin-top: 70px;
+}
+.text-about-brands ul li p{
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin:0 auto;
+}
+.text-about-brands img{
+  margin-top: 40px;
+}
+.text-about-brands h6{
+  font-size: 25px;
+  color: #fff;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.text-about-brands button{
+  margin-top: 30px;
+  width: 53%;
+  height: 55px;
+  font-size: 18px;
+  background-color:#002e25;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.text-about-brands button:focus{
+  background-color: #fff;
+  color: #002e25;
+}
+.img-brands{
+  width: 1220px;
+  margin: 0 auto;
+}
+.img-brands img{
+  margin-top: 45px;
+  margin-left: 15px;
+}
+.help-container{
+  width: 1420px;
+  margin: 0 auto;
+  background:#fbf7ed;
+}
+.img-help-container{
+  background: url(images/img20.jpg) no-repeat right;
+  background-size: contain;
+  height: 700px;
+  margin-top: 55px;
+}
+.img-help-container h4{
+  padding-top: 45px;
+  margin-left: 67px;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 35%;
+}
+.steps-help-container{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 300px;
+  margin-left: 67px;
+}
+.shopify-support{
+  list-style: none;
+  width: 20%;
+}
+.shopify-support h6{
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shopify-support p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  color:#6b7177 ;
+}
+.shopify-support a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #008060;
+  margin-top: 20px;
+}
+.shopify-app{
+  list-style: none;
+  width: 22%;
+}
+.shopify-app h6{
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shopify-app p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #6b7177;
+}
+.shopify-app a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #008060;
+  margin-top: 20px;
+}
+.steps-help-second-container{
+  margin-left: 67px;
+
+}
+.shopify-experts{
+  list-style: none;
+}
+.shopify-experts h6{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shopify-experts p{
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #6b7177;
+  margin-top: 20px;
+  width: 25%;
+}
+.shopify-experts a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #008060;
+  margin-top: 20px;
+}
+.try-shopify-container{
+  text-align: center;
+  padding: 35px;
+}
+.try-shopify-container h3{
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 35px;
+}
+.try-shopify-container p{
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #6b7177;
+  width: 50%;
+  margin-left: 476px;
+}
+.try-shopify-container button{
+  margin-top: 20px;
+  height: 45px;
+  width: 125px;
+  background: #008060;
+  color: #fff;
+  border-radius: 5px;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+}
+.try-shopify-container button:focus{
+ background-color: #002e25;
+}
+.terms-policy-container{
+  width: 1420px;
+  margin: 0 auto;
+  background:#002e25;
+  
+}
+.footer-nav ul{
+  list-style: none;
+  background:#002e25;
+  overflow: hidden;
+  margin-left: 65px;
+}
+.footer-nav ul li{
+  float: left;
+}
+.footer-nav ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.info-terms-container{
+  display:flex;
+}
+.info-terms-container ul{
+  list-style: none;
+  margin:0 auto;
+  margin-top: 45px;
+}
+.info-terms-container ul li{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+.icons-follow{
+  margin-left: 65px;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+i.fa-facebook{
+  margin-right: 25px;
+}
+i.fa-twitter-square{
+  margin-right: 25px;
+}
+i.fa-youtube{
+  margin-right: 25px;
+}
+i.fa-instagram{
+  margin-right: 25px;
+}
+i.fa-linkedin{
+  margin-right: 25px;
+}
+
+
